@@ -1,1 +1,15 @@
 exit
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+exit
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.exercicios :as exercicios] :reload)
+(exercicio/read-and-convert)
+(exercicios/read-and-convert)
+exit
