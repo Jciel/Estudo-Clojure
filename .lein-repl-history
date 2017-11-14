@@ -13,3 +13,52 @@ exit
 (exercicio/read-and-convert)
 (exercicios/read-and-convert)
 exit
+(require '[forca.exercicios :as exercicios] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(let [y 1] 
+         y)
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(exit)
+(+ 8 9)
+(defn fib[x]
+    (loop [a 1 b 1 numero 2]
+        (if 
+            (= numero x) b
+            (recur b (+ a b) (inc numero))
+        )
+    ))
+(fib 5)
+(fib)
+(fib 1)
+(fib 2)
+(fib 3)
+(fib 4)
+(fib 5)
+(fib 6)
+(fib 7)
+(defn soma[n]
+    (loop [contador 1 soma 0]
+        (if (> contador n) soma
+        (recur (soma (+ contador 1))))))
+        (recur (soma (+ contador 1) (+ soma contador)))))
+(defn soma[n]
+    (loop [contador 1 soma 0]
+        (if (> contador n) soma
+        (recur (inc contador) (+ soma contador)))))
+(soma 5)
+(soma 6)
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
+(require '[forca.core :as forca] :reload)
+(forca/jogo 2 "MELANCIA" #{})
