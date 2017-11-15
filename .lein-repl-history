@@ -89,3 +89,41 @@ forca.core=> (->> carros
 (->> carros 
 (map (fn [x] (* x 2)))
 (map (fn [x] (- x 200))))
+(defrecord Person [first-name last-name])
+(print Person)
+(def foo (->Person "Aaron" "Bedra"))
+for
+(foo)
+#'foo
+#'forca.core.foo
+#'forca.core/foo
+foo
+foo.first-name
+(foo :fist-name)
+(defn hello-world [username]
+(println (format "Hollo, %s" username)))
+(hello-world Jociel)
+(hello-world "Jociel")
+(def accounts (ref #{}))
+(accounts)
+(print accounts)
+(defrecord Account [id balance])
+(dosync
+(alter accounts conj (->Account "CLJ" 1000)))
+(print accounts)
+(->Account "Teste" 2000)
+(print accounts)
+(print Account)
+(System/getProperties)
+(/ 1 0)
+(pts)
+(pst)
+(/ 1 0)
+(pst)
+#{}
+(conj coll item)
+(conj #{} "Stu")
+(print #{})
+(atom initial-state)
+(def symbol initial-value?)
+(quit)
