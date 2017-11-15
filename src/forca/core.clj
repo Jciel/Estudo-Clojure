@@ -2,6 +2,7 @@
     (:gen-class))
 
 (def total-de-vidas 6)
+(def palavra-secreta "MELANCIA")
 
 (defn perdeu []
     (println "Você perdeu!"))
@@ -49,10 +50,12 @@
 ;     (jogo vidas palavra (conj acertos chute))
 ;     (jogo (dec vidas) palavra acertos)))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+
+(defn comeca-jogo []
+    (jogo total-de-vidas palavra-secreta #{}))
+
+(defn -main [& args]
+  (comeca-jogo))
 
 
 

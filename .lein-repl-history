@@ -62,4 +62,30 @@ exit
 (forca/jogo 2 "MELANCIA" #{})
 (require '[forca.core :as forca] :reload)
 (forca/jogo 2 "MELANCIA" #{})
-(quit)
+(def carros [50000.0, 60000.0])
+carror
+carros
+(map (fn [x]
+(map (fn [x] (* x 2)) carros)
+(defn dobro [x]
+(* x 2))
+(map dobro carros)
+(reduce (fn [acc n] (+ acc n)) carros)
+(->> carros (map
+(->> carros (map (fn [x] (* n 2))) (reduce (fn [acc n] (+ acc n))))
+(->> carros (map (fn [x] (* x 2))) (reduce (fn [acc n] (+ acc n))))
+(->> carros
+(map (fn [x] (* x 2)))
+(map (fn [x] (* x 3)))
+(reduce (fn [acc n] (+ acc n))))
+(map (fn [x] (* x 2)) carros)
+(map (fn [x] (- x 200)) (map (fn [x] (* x 2)) carros))
+(->> carros 
+forca.core=> (->> carros
+forca.core=> (->> carros (map (fn [x] (* x 2)))
+forca.core=> (->> carros
+(map (fn [x] (* x 2)))
+forca.core=> (->> carros
+(->> carros 
+(map (fn [x] (* x 2)))
+(map (fn [x] (- x 200))))
