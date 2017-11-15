@@ -62,3 +62,4 @@ exit
 (forca/jogo 2 "MELANCIA" #{})
 (require '[forca.core :as forca] :reload)
 (forca/jogo 2 "MELANCIA" #{})
+(quit)

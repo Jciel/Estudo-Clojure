@@ -17,3 +17,14 @@
     (loop [contador 1 soma 0]
         (if (> contador n) soma
         (recur (inc contador) (+ soma contador)))))
+
+
+
+(def carros [50000.0, 60000.0])
+
+(reduce (fn [acc n] (+ acc n)) carros)
+
+(->> carros
+	(map (fn [x] (* x 2)))
+	(map (fn [x] (* x 3)))
+	(reduce (fn [acc n] (+ acc n))))
